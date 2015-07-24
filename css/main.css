@@ -1,0 +1,427 @@
+/*
+=================================================================
+Home Page
+=================================================================
+*/
+
+/*==========================================
+Container
+==========================================*/
+body, html {
+	background-color: #808080;
+	margin: 0;
+	height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: #303030;
+}
+
+.container {
+	margin-bottom: 50px;
+}
+
+/*=========================================
+Navbar
+==========================================*/
+
+.navbar-brand {
+	color: white !important;
+	font-size: 1.8em;
+}
+
+/*=========================================
+Carousel
+==========================================*/
+#mBoard {
+	width: 1200px;
+	height: 400px;
+
+}
+
+#repairPop {
+	width: 600px;
+	height: 800px;
+	background-color: black;
+	margin: 0 auto;
+	display: none;
+}
+
+#hdd {
+	width: 400px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+
+#computer {
+	width: 500px;
+	height: 400px;
+	display: block;
+	margin: auto;
+}
+
+#books {
+	width: 500px;
+	height: 400px;
+}
+
+.carousel-caption h3{
+	color: white;
+	text-shadow: 3px 3px 2px black;
+}
+
+.carousel-caption p {
+	color: white;
+	text-shadow: 2px, 2px, 2px, black;
+}
+
+/*=========================================
+columns
+==========================================*/
+
+.row {
+	padding-top: 10px;
+	height: 300px;
+}
+.row h3 {
+	text-align: center;
+}
+
+.row p {
+	text-align: center;
+}
+
+#leftList {
+	display: inline-block;
+	color: #303030;
+}
+
+#rightList {
+	display: inline-block;
+	color: #303030;
+}
+
+.col-md-4 {
+	padding-bottom: 20px;
+	padding-top: 40px;
+}
+
+.leftCol img {
+	display: block;
+	width: 80px;
+	margin: auto;
+}
+
+.middleCol img {
+	display: block;
+	width: 80px;
+	margin: auto;
+}
+
+.rightCol img {
+	display: block;
+	width: 80px;
+	margin: auto;
+}
+
+/*
+============================================================
+About Us
+============================================================
+*/
+
+#bios {
+	margin-top: 100px;
+}
+
+#bios p {
+	display: none;
+}
+
+#sr {
+	height: 100px;
+	width: 80%;
+	padding-bottom: 150px;
+	margin: 0 auto;
+}
+
+#sr p {
+	background-color: #787878;
+	height: 60px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#chuck {
+	height: 100px;
+	width: 80%;
+	padding-bottom: 150px;
+	margin: 0 auto;
+}
+
+#chuck p {
+	background-color: #787878;
+	height: 60px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+#anderson {
+	height: 100px;
+	width: 80%;
+	padding-bottom: 120px;
+	margin: 0 auto;
+}
+
+#anderson p {
+	background-color: #787878;
+	height: 60px;
+	padding: 10px;
+	border-radius: 20px;
+}
+
+
+
+/*
+============================================================
+Contact Us
+============================================================
+*/
+
+.call {
+	width: 140px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 40px;
+}
+
+.call img {
+	width: 50px;
+	padding: 0;
+	display: block;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+
+#icon {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: black;
+	margin: 0 auto;
+}
+
+.call h1 {
+	font-size: 3em;
+}
+
+.hidden {
+	display: hidden;
+	height: 300px;
+	width: 400px;
+	z-index: 51;
+	position: absolute;
+	box-shadow:0px 0px 5px #444444;
+	background-color: white;
+
+}
+
+.location {
+	width: 350px;
+	margin: 0 auto;
+	padding-top: 60px;
+}
+
+.location img {
+	width: 100px;
+	display: block;
+	margin: 0 auto;
+}
+
+.location h1 {
+	font-size: 3em;
+	text-align: center;
+}
+
+.location h4 {
+	text-indent: 85px;
+}
+
+#indent {
+	text-indent: 85px;
+}
+
+
+
+/*Footer
+==========================================*/
+
+.footer {
+	height: 170px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+.footer p {
+	color: white;
+	text-align: center;
+}
+
+.footerAbout {
+	height: 170px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+.footerAbout p {
+	color: white;
+	text-align: center;
+}
+
+.footerContact {
+	height: 170px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	position: relative;
+}
+
+.footerContact p {
+	color: white;
+	text-align: center;
+}
+
+#index {
+	text-align: center;
+	padding-top: 15px;
+}
+
+#index li {
+	display: inline;	
+	text-decoration: none;
+	list-style-type: none;
+	padding: 5px;
+	font-size: 1.2em;
+}
+
+.footer a:visited {
+	color: white;
+}
+
+.footer a:hover {
+	color: white;
+}
+
+.footerAbout a:visited {
+	color: white;
+}
+
+.footerAbout a:hover {
+	color: white;
+}
+
+.footerContact a:visited {
+	color: white;
+}
+
+.footerContact a:hover {
+	color: white;
+}
+
+
+/*
+============================================================
+Media Query
+============================================================
+*/
+
+@media screen and (max-width: 991px) {
+	.leftCol, .middleCol {
+		border-bottom: 2px groove white;
+	}
+
+	.middleCol, .rightCol {
+		padding-top: 10px;
+	}
+
+	.location {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	#bios p {
+		height: 100px;
+	}
+
+	#chuck p {
+		height: 140px;
+	}
+
+	#sr {
+		padding-bottom: 220px;
+	}
+
+	#chuck {
+		padding-bottom: 220px;
+	}
+
+	#anderson {
+		padding-bottom: 150px;
+	}
+
+	.footer {
+		bottom: -450px;
+		height: 170px;
+	}
+
+	.footerContact {
+		height: 200px;
+		height: 170px;
+		width: 100%;
+		background-color: black;
+		color: white;
+		position: relative;
+	}
+
+	.footerContact p {
+	color: white;
+	text-align: center;
+	}
+
+	.footerContact a:visited {
+	color: white;
+	}
+
+	.footerContact a:hover {
+	color: white;
+	}
+
+	.footerAbout {
+		height: 200px;
+		height: 170px;
+		width: 100%;
+		background-color: black;
+		color: white;
+		position: relative;
+	}
+
+	.footerAbout p {
+	color: white;
+	text-align: center;
+	}
+
+	.footerAbout a:visited {
+	color: white;
+	}
+
+	.footerAbout a:hover {
+	color: white;
+	}
+
+}
