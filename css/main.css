@@ -272,7 +272,7 @@ Contact Us
 }
 
 .footerAbout {
-	height: 170px;
+	height: 220px;
 	width: 100%;
 	background-color: black;
 	color: white;
@@ -285,7 +285,7 @@ Contact Us
 }
 
 .footerContact {
-	height: 170px;
+	height: 220px;
 	width: 100%;
 	background-color: black;
 	color: white;
@@ -308,6 +308,10 @@ Contact Us
 	list-style-type: none;
 	padding: 5px;
 	font-size: 1.2em;
+}
+
+.footer a:link {
+	color: white;
 }
 
 .footer a:visited {
@@ -334,6 +338,16 @@ Contact Us
 	color: white;
 }
 
+#facebook img {
+	width: 50px;
+	height: auto;
+	color: white;
+	padding: 5px;
+}
+
+#facebook {
+	text-align: center;
+}
 
 /*
 ============================================================
@@ -381,8 +395,7 @@ Media Query
 	}
 
 	.footerContact {
-		height: 200px;
-		height: 170px;
+		height: 220px;
 		width: 100%;
 		background-color: black;
 		color: white;
@@ -403,8 +416,7 @@ Media Query
 	}
 
 	.footerAbout {
-		height: 200px;
-		height: 170px;
+		height: 220px;
 		width: 100%;
 		background-color: black;
 		color: white;
@@ -425,3 +437,4 @@ Media Query
 	}
 
 }
+
