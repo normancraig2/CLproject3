@@ -7,7 +7,7 @@
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
         <link rel="icon" type="image/png" href="images/icon.png" sizes="32x32">
         <link rel="stylesheet" type="text/css" href="css/normalize.css">
         <link rel="scripts" type="text/js" href="myScripts.js">
@@ -15,146 +15,145 @@
         <title>Parts Plus</title>
     </head>
     <body>
-        <div class = "container">
-            <!--NAVBAR-->
-            <nav class="navbar navbar-inverse">
-                <div class="container-fluid">
+        
+        <!--NAVBAR-->
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!--div creates menu icon on collapse-->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span> 
+                  </button>
+                  <a class="navbar-brand" href="index.html">Parts Plus</a>
+                </div><!--end navbar-header-->
 
-                    <!--div creates menu icon on collapse-->
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span> 
-                      </button>
-                      <a class="navbar-brand" href="index.html">Parts Plus</a>
-                    </div><!--end navbar-header-->
+                <!--div creates navigation-->
+                <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li> 
+                  </ul>
+                </div><!--end #myNavbar-->
+            </div><!-- end container-fluid -->
+        </nav>
+        <!--END OF NAVBAR-->
 
-                    <!--div creates navigation-->
-                    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
-                      <ul class="nav navbar-nav">
-                        <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="contact.html">Contact Us</a></li> 
-                      </ul>
-                    </div><!--end #myNavbar-->
-                </div><!-- end container-fluid -->
-            </nav>
-            <!--END OF NAVBAR-->
+        <!-- CAROUSEL -->
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Markers -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-            <!-- CAROUSEL -->
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                <!-- Markers -->
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                    <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-
-                    <!-- computer repair slide -->
-                    <div class="item active">
-                        <img id="mBoard" src="images/mother_board.jpg" alt="Motherboard">
-                        <div class="carousel-caption">
-                            <h3>Computer Repair</h3>
-                            <p>Don't buy a computer because something went wrong. Replace a part for a fraction of the cost.</p>
-                        </div>
+                <!-- computer repair slide -->
+                <div class="item active">
+                    <img id="mBoard" src="images/mother_board.jpg" alt="Motherboard">
+                    <div class="carousel-caption">
+                        <h3>Computer Repair</h3>
+                        <p>Don't buy a computer because something went wrong. Replace a part for a fraction of the cost.</p>
                     </div>
-                    <!-- end computer repair slide -->
-
-                    <!-- upgrade slide -->
-                    <div class="item">
-                        <img id="hdd" src="images/hdd.png" alt="hdd">
-                        <div class="carousel-caption">
-                            <h3>Upgrade</h3>
-                            <p>Speed up your computer's performance and increase its functionality at a reasonable cost.</p>
-                        </div>
-                    </div>
-                    <!-- end upgrade slide -->
-                    
-                    <!-- Computer/device slide -->
-                    <div class="item">
-                        <img id="computer" src="images/icon.png" alt="computer">
-                        <div class="carousel-caption">
-                            <h3>Buy Computers/Devices Here!</h3>
-                            <p>Don't go to a big box store and buy an inadequate computer because it's new.</p>
-                        </div>
-                    </div> 
-                    <!-- end computer/device slide -->
-
-                    <!-- text book slide -->
-                    <div class="item">
-                        <img id="books" src="images/books.png" alt="books">
-                        <div class="carousel-caption">
-                            <h3>We Buy Text Books</h3>
-                            <p>Strapped for cash? Bring your textbooks in for a quote. Help pay for your new device!</p>
-                        </div>
-                    </div> 
-                    <!-- end textbook slide -->          
-                </div><!-- end carousel-inner -->
-
-                <!-- Left control -->
-                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-
-                <!-- Right control -->
-                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>            
-            </div><!-- end #myCarousel --> 
-
-            <div class="row align-center">
-                <!-- left column -->
-                <div class="col-md-4 leftCol">
-                    <img src="images/calendar.png">
-                    <h3>Hours</h3>
-                    <p>Monday-Friday: 9:30 - 5:30<br>
-                       Saturday: 10:00 - 2:00<br>
-                       Sunday: Closed
-                    </p>
                 </div>
-                <!-- end left column -->
+                <!-- end computer repair slide -->
 
-                <!-- middle column -->
-                <div class="col-md-4 middleCol">
-                    <img src="images/money.png">
-                    <h3>Textbooks</h3>
-                    <p>
-                        We buy textbooks! Bring your textbooks in for quick cash or for credit on computer repairs or upgrades.
-                    </p>
-                </div>
-                <!-- end middle column -->
-
-                <!-- right column -->
-                <div class="col-md-4 rightCol">
-                    <img src="images/wrench.png">
-                    <h3>Services</h3>
-                    <div id="leftList">
-                        <ul id="services">
-                            <li>Data Recovery</li>
-                            <li>Virus Removal</li>
-                            <li>Phone/Tablet repair</li>
-                            <li>Speed up your computer</li>
-                        </ul>
+                <!-- upgrade slide -->
+                <div class="item">
+                    <img id="hdd" src="images/hdd.png" alt="hdd">
+                    <div class="carousel-caption">
+                        <h3>Upgrade</h3>
+                        <p>Speed up your computer's performance and increase its functionality at a reasonable cost.</p>
                     </div>
-                    <div id="rightList">
-                        <ul>
-                            <li>Networks</li>
-                            <li>Software</li>
-                            <li>Hardware</li>
-                            <li>And many more</li>
-                        </ul> 
-                    </div>                   
+                </div>
+                <!-- end upgrade slide -->
+                
+                <!-- Computer/device slide -->
+                <div class="item">
+                    <img id="computer" src="images/icon.png" alt="computer">
+                    <div class="carousel-caption">
+                        <h3>Buy Computers/Devices Here!</h3>
+                        <p>Don't go to a big box store and buy an inadequate computer because it's new.</p>
+                    </div>
                 </div> 
-                <!-- end right column -->
-            </div><!-- end .columns -->     
-        </div><!--end container-->
+                <!-- end computer/device slide -->
+
+                <!-- text book slide -->
+                <div class="item">
+                    <img id="books" src="images/books.png" alt="books">
+                    <div class="carousel-caption">
+                        <h3>We Buy Text Books</h3>
+                        <p>Strapped for cash? Bring your textbooks in for a quote. Help pay for your new device!</p>
+                    </div>
+                </div> 
+                <!-- end textbook slide -->          
+            </div><!-- end carousel-inner -->
+
+            <!-- Left control -->
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <!-- Right control -->
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>            
+        </div><!-- end #myCarousel --> 
+
+        <div class="row align-center">
+            <!-- left column -->
+            <div class="col-md-4 leftCol">
+                <img src="images/calendar.png">
+                <h3>Hours</h3>
+                <p>Monday-Friday: 9:30 - 5:30<br>
+                   Saturday: 10:00 - 2:00<br>
+                   Sunday: Closed
+                </p>
+            </div>
+            <!-- end left column -->
+
+            <!-- middle column -->
+            <div class="col-md-4 middleCol">
+                <img src="images/money.png">
+                <h3>Textbooks</h3>
+                <p>
+                    We buy textbooks! Bring your textbooks in for quick cash or for credit on computer repairs or upgrades.
+                </p>
+            </div>
+            <!-- end middle column -->
+
+            <!-- right column -->
+            <div class="col-md-4 rightCol">
+                <img src="images/wrench.png">
+                <h3>Services</h3>
+                <div id="leftList">
+                    <ul id="services">
+                        <li>Data Recovery</li>
+                        <li>Virus Removal</li>
+                        <li>Phone/Tablet repair</li>
+                        <li>Speed up your computer</li>
+                    </ul>
+                </div>
+                <div id="rightList">
+                    <ul>
+                        <li>Networks</li>
+                        <li>Software</li>
+                        <li>Hardware</li>
+                        <li>And many more</li>
+                    </ul> 
+                </div>                   
+            </div> 
+            <!-- end right column -->
+        </div><!-- end .columns -->     
+    
         <!-- begin .footer -->
         <div class="footer">
             <div id="index">

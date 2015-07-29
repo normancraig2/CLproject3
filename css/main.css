@@ -11,23 +11,34 @@ body, html {
 	background-color: #808080;
 	margin: 0;
 	height: 100%;
+	width: 100%;
+	padding: 0;
 }
+
+
 
 h1, h2, h3, h4, h5, h6, p {
 	color: #303030;
-}
-
-.container {
-	margin-bottom: 50px;
+	font-family: 'Abril Fatface', cursive;
 }
 
 /*=========================================
 Navbar
 ==========================================*/
 
+.navbar {
+	height: 100px;
+	border-radius: 0;
+}
+
+#myNavbar {
+	font-family: 'Abril Fatface', cursive;
+}
+
 .navbar-brand {
 	color: white !important;
-	font-size: 1.8em;
+	font-size: 3.2em;
+	font-family: 'Abril Fatface', cursive;
 }
 
 /*=========================================
@@ -36,16 +47,11 @@ Carousel
 #mBoard {
 	width: 1200px;
 	height: 400px;
-
-}
-
-#repairPop {
-	width: 600px;
-	height: 800px;
-	background-color: black;
 	margin: 0 auto;
-	display: none;
+
 }
+
+
 
 #hdd {
 	width: 400px;
@@ -132,7 +138,7 @@ About Us
 */
 
 #bios {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #bios p {
@@ -277,6 +283,7 @@ Contact Us
 	background-color: black;
 	color: white;
 	position: relative;
+	margin-top: 35px;
 }
 
 .footerAbout p {
@@ -322,6 +329,10 @@ Contact Us
 	color: white;
 }
 
+.footerAbout a:link {
+	color: white;
+}
+
 .footerAbout a:visited {
 	color: white;
 }
@@ -330,11 +341,23 @@ Contact Us
 	color: white;
 }
 
+.footerAbout a:active {
+	color: white;
+}
+
+.footerContact a:link {
+	color: white;
+}
+
 .footerContact a:visited {
 	color: white;
 }
 
 .footerContact a:hover {
+	color: white;
+}
+
+.footerContact a:active {
 	color: white;
 }
 
@@ -428,6 +451,10 @@ Media Query
 	text-align: center;
 	}
 
+	.footerAbout a:link {
+		color: white;
+	}
+
 	.footerAbout a:visited {
 	color: white;
 	}
@@ -436,5 +463,8 @@ Media Query
 	color: white;
 	}
 
+	.footerAbout a:link {
+	color: white;
+	}
 }
 
