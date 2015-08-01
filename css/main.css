@@ -4,9 +4,7 @@ Home Page
 =================================================================
 */
 
-/*==========================================
-Container
-==========================================*/
+
 body, html {
 	background-color: #808080;
 	margin: 0;
@@ -16,10 +14,9 @@ body, html {
 }
 
 
-
 h1, h2, h3, h4, h5, h6, p {
 	color: #303030;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Prociono';
 }
 
 /*=========================================
@@ -27,18 +24,17 @@ Navbar
 ==========================================*/
 
 .navbar {
-	height: 100px;
 	border-radius: 0;
 }
 
 #myNavbar {
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Prociono';
 }
 
 .navbar-brand {
 	color: white !important;
 	font-size: 3.2em;
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Prociono', cursive;
 }
 
 /*=========================================
@@ -50,8 +46,6 @@ Carousel
 	margin: 0 auto;
 
 }
-
-
 
 #hdd {
 	width: 400px;
@@ -187,8 +181,6 @@ About Us
 	border-radius: 20px;
 }
 
-
-
 /*
 ============================================================
 Contact Us
@@ -223,17 +215,6 @@ Contact Us
 	font-size: 3em;
 }
 
-.hidden {
-	display: hidden;
-	height: 300px;
-	width: 400px;
-	z-index: 51;
-	position: absolute;
-	box-shadow:0px 0px 5px #444444;
-	background-color: white;
-
-}
-
 .location {
 	width: 350px;
 	margin: 0 auto;
@@ -259,9 +240,8 @@ Contact Us
 	text-indent: 85px;
 }
 
-
-
-/*Footer
+/*========================================
+Footer
 ==========================================*/
 
 .footer {
